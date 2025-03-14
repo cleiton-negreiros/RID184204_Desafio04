@@ -1,0 +1,30 @@
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .theme-toggle.light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .theme-toggle.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .theme-toggle:hover {
+    transform: scale(1.1);
+  }

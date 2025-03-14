@@ -1,0 +1,27 @@
+.footer {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  margin: 0 15px;
+  font-size: 24px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--accent-color);
+}
+
+.copyright {
+  font-size: 14px;
+  color: var(--secondary-text);
+}

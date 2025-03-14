@@ -1,0 +1,26 @@
+.hero {
+  padding: 60px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin: 10px 0 20px;
+  color: var(--text-color);
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--secondary-text);
+  margin-bottom: 30px;
+}
